@@ -11,22 +11,21 @@ import { HiUserGroup } from "react-icons/hi";
 
 function Header() {
     return (
-        <Navbar expand="lg" >
+        <Navbar expand="lg" collapseOnSelect >
             <Container fluid>
                 <Navbar.Brand href="#">
-                    <img src={logo} alt="logo" className='logo' />
+                    <img src={logo} alt="logo" className='logo img-fluid' />
                 </Navbar.Brand>
-                <Navbar.Toggle aria-controls="navbarScroll" />
-                <Navbar.Collapse id="navbarScroll">
+                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                <Navbar.Collapse id="responsive-navbar-nav">
                     <input
                         className='search-input'
                         type="text"
                         placeholder='Search...' />
 
                     <Nav
-                        className="mx-auto my-2 my-lg-0"
-                        style={{ maxHeight: '100px' }}
-                        navbarScroll
+                        className="mx-auto"
+
                     >
                         <Nav.Link href="#action1"><BiHomeAlt size='1.8rem' color='white' className='nav-icon' /></Nav.Link>
                         <Nav.Link href="#action1"><HiUserGroup size='1.8rem' color='white' className='nav-icon' /></Nav.Link>

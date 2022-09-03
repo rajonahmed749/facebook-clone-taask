@@ -1,8 +1,10 @@
 .app{
   background-color: #e9ebee;
+  /* padding: 0px 20px; */
 }
 .app-body {
   min-height: 100vh;
   background-color: #e9ebee;
-  display: flex
+  display: flex;
+  /* padding: 0px 25px; */
 }

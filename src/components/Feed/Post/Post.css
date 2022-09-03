@@ -1,0 +1,80 @@
+.post {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
+    ;
+    /* width: 100%; */
+}
+
+.post-user {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.post-user-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.post-top-info {
+    display: flex;
+}
+
+.post-options {
+    /* padding-top: 10px; */
+    border-top: 1px solid lightgray;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: medium;
+    color: gray;
+    cursor: pointer;
+    /* padding: 15px; */
+    background: #fafafa;
+}
+
+.post-option {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    padding: 5px
+}
+
+.post-option:hover {
+    background-color: #eff2f5;
+    border-radius: 10px;
+}
+
+.post-option>p {
+    margin-top: 15px;
+    padding-left: 5px;
+}
+
+/* Social share section */
+
+/* .comment-section {
+    display: flex;
+    justify-content: space-evenly;
+} */
+
+.comment-box {
+    background-color: #fafafa;
+    border-radius: 90px;
+    margin-right: 20px;
+}
+
+.comment-input {
+    border-radius: 20px;
+    padding: 2px 25px;
+    border: 0px solid;
+    background-color: #fafafa;
+    outline: none;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    outline: none;
+}

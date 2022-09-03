@@ -10,7 +10,7 @@ import './StoryReel.css'
 
 function StoryReel() {
     return (
-        <div className='storyReel'>
+        <div className='container storyReel'>
             <Story image={img1} profileSrc={user} title='Rajon ahmed'/>
             <Story image={img2} profileSrc={user2} title='Mr. Suriya'/>
             <Story image={img1} profileSrc={user3} title='Max Smith'/>

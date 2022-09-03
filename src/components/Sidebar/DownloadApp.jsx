@@ -8,8 +8,11 @@ function DownloadApp() {
     return (
         <div style={{ backgroundColor: 'white', padding: '15px', marginTop: '15px', borderRadius: '8px' }}>
             <h5 style={{ fontWeight: 'bold' }}>Download App</h5>
-            <img src={appleStore} alt="store" className='stores-download' />
-            <img src={playStore} alt="store" className='stores-download' />
+            <div className='d-flex'>
+                <img src={appleStore} alt="store" className='stores-download' />
+                <img src={playStore} alt="store" className='stores-download' />
+            </div>
+
         </div>
     )
 }
