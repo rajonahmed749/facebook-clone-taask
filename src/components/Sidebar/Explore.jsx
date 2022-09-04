@@ -10,7 +10,7 @@ function Explore() {
         { title: 'People', icon: <AiOutlineUser /> },
         { title: 'Groups', icon: <HiUserGroup /> },
         { title: 'Pages', icon: <BsFillFileEarmarkPostFill /> },
-        { title: 'Events', icon: <BsCalendar4Event /> },
+        { title: 'Events', icon: <BsCalendar4Event /> }
     ]
 
     return (

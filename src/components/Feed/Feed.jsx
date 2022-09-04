@@ -1,6 +1,6 @@
-import React from 'react'
+import React from 'react';
 import StoryReel from './StoryReel/StoryReel';
-import './Feed.css'
+import './Feed.css';
 import CreatePost from './CreatePost/CreatePost';
 import NoPost from './NoPost/NoPost';
 import Post from './Post/Post';

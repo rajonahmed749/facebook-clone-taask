@@ -1,6 +1,6 @@
 import React from 'react';
 import { MdOutlineCancel } from "react-icons/md";
-import './PullPost.css'
+import './PullPost.css';
 
 function PullOption(props) {
     return (
@@ -12,9 +12,9 @@ function PullOption(props) {
                     {props.sports}
                 </label>
             </div>
-            <MdOutlineCancel  className='mt-3'/>
+            <MdOutlineCancel className='mt-3' />
         </div>
     )
 }
 
-export default PullOption
+export default PullOption;

@@ -12,7 +12,6 @@ function DownloadApp() {
                 <img src={appleStore} alt="store" className='stores-download' />
                 <img src={playStore} alt="store" className='stores-download' />
             </div>
-
         </div>
     )
 }

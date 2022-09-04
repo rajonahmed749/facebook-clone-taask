@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Form, Nav, Navbar, NavDropdown } from 'react-bootstrap';
+import { Container, Nav, Navbar } from 'react-bootstrap';
 import logo from '../../Images/logo.png';
 import './Header.css';
 import { BiHomeAlt } from "react-icons/bi";
@@ -23,10 +23,7 @@ function Header() {
                         type="text"
                         placeholder='Search...' />
 
-                    <Nav
-                        className="mx-auto"
-
-                    >
+                    <Nav className="mx-auto" >
                         <Nav.Link href="#action1"><BiHomeAlt size='1.8rem' color='white' className='nav-icon' /></Nav.Link>
                         <Nav.Link href="#action1"><HiUserGroup size='1.8rem' color='white' className='nav-icon' /></Nav.Link>
                         <Nav.Link href="#action1"><AiOutlineBell size='1.8rem' color='white' className='nav-icon' /></Nav.Link>
@@ -34,8 +31,8 @@ function Header() {
                         <h5 style={{ color: 'white', padding: '5px', borderRadius: "5px", marginLeft: '10px' }}>
                             <img src={avater} alt="user"
                                 style={{ width: "30px", borderRadius: "50%", color: 'white' }}
-                            />  Rajon Ahmed<IoIosArrowDown size='0.8rem' /></h5>
-
+                            />  Rajon Ahmed<IoIosArrowDown size='0.8rem' />
+                        </h5>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

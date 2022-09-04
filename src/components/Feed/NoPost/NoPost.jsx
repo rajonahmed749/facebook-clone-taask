@@ -12,4 +12,4 @@ function NoPost() {
     )
 }
 
-export default NoPost
+export default NoPost;

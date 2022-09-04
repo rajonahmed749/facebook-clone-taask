@@ -14,7 +14,6 @@ function StoryReel() {
             <Story image={img1} profileSrc={user} title='Rajon ahmed'/>
             <Story image={img2} profileSrc={user2} title='Mr. Suriya'/>
             <Story image={img1} profileSrc={user3} title='Max Smith'/>
-
         </div>
     )
 }

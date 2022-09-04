@@ -3,7 +3,7 @@ import './PullPost.css';
 import user from '../../../Images/avater.png';
 import Dropdown from 'react-bootstrap/Dropdown';
 import { HiOutlineSupport } from "react-icons/hi";
-import { BsFillBookmarkFill, BsFlagFill, BsLink45Deg, BsHandThumbsUpFill, BsFillHeartFill } from "react-icons/bs";
+import { BsFillBookmarkFill, BsFlagFill, BsLink45Deg } from "react-icons/bs";
 import { MdMode, MdDelete } from "react-icons/md";
 import PullOption from './PullOption';
 import SocialComponents from '../Post/SocialComponents';
@@ -22,7 +22,6 @@ function PullPost() {
                 <div>
                     <Dropdown>
                         <Dropdown.Toggle variant="none" id="dropdown-split-basic" />
-
                         <Dropdown.Menu>
                             <Dropdown.Item href="#/action-1"><BsFillBookmarkFill /> Saved Post</Dropdown.Item>
                             <Dropdown.Item href="#/action-2"><BsFlagFill /> Report Post</Dropdown.Item>
@@ -37,11 +36,11 @@ function PullPost() {
             {/* Pull body */}
             <div className='mb-3'>
                 <p className='text-secondary'>Your favourite game</p>
-                <PullOption user='you' sports='Football'/>
-                <PullOption user='you' sports='Cricket'/>
-                <PullOption user='you' sports='Badminton'/>
+                <PullOption user='you' sports='Football' />
+                <PullOption user='you' sports='Cricket' />
+                <PullOption user='you' sports='Badminton' />
             </div>
-            <SocialComponents/>
+            <SocialComponents />
         </div>
     )
 }
